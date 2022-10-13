@@ -28,14 +28,14 @@ string[] GiveWorldsMore3Char(string[] array)
     }
 
     string[] resultArray = new string[resultLenght];
-    int k = 0;
+    int tmp = 0;
 
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
         {
-            resultArray[k] = array[i];
-            k++;
+            resultArray[tmp] = array[i];
+            tmp++;
         }
     }
 
